@@ -1,0 +1,79 @@
+// Variables
+
+$txt-color: #8c95a2;
+$h2-color: #1f365c;
+$h2-fnt-size: 26px;
+$fnt-weight: 700;
+$fnt-family: 'Helvetica',
+sans-serif;
+$f-size_time: 12px;
+$f-size_description: 15px;
+
+// Form vars
+$form-bgr: #ffffff;
+$btn-color: #ffb536;
+$btn-text-color: #ffffff;
+$border-color: #c8cbcf;
+
+// Usage
+.type-1593 {
+  .my-container{
+    .h2-title {
+      font-weight: $fnt-weight;
+      margin: 0px 0px 20px;
+      color: $h2-color;
+      font-size: $h2-fnt-size;
+      font-family: $fnt-family;
+      gap: normal;
+      line-height: 32px;
+      text-align: left;
+      text-transform: uppercase;
+    }
+
+    .contact-description {
+      color: $txt-color;
+      font-size: $f-size_description;
+      gap: normal;
+      line-height: 23px;
+    }
+
+    .form-control {
+      background-color: $form-bgr;
+      border-color: $border-color;
+      border-radius: 1px;
+      border-style: solid;
+      border-width: 1.0101px;
+      color: $txt-color;
+      display: inline-block;
+      font-size: 14px;
+      gap: normal;
+      line-height: 22px;
+      margin: 0px 0px 10px;
+      padding: 5px 15px;
+
+      .message-field {
+
+        display: inline-block;
+        flex-direction: row;
+        display: flex;
+      }
+
+    }
+
+    .btn-primary {
+      background-color: #ffb536;
+      color: #ffffff;
+      display: inline-block;
+      font-weight: 700;
+      gap: normal;
+      line-height: 38px;
+      margin: 0px 10px 0px 0px;
+      padding: 0px 18px 0px 16px;
+      text-transform: uppercase;
+      border-radius: 0%;
+      border: none;
+    }
+
+
+  }
+}
