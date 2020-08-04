@@ -5,7 +5,11 @@
 .type-4 .fake-body {
   display: none; }
   .type-4 .swiper-container .swiper-button-prev {
-    color: white; }
+    color: white;
+    text-transform: uppercase; }
+  .type-4 .swiper-container .swiper-button-next {
+    color: white;
+    text-transform: uppercase; }
 
 html, body {
   position: relative;
