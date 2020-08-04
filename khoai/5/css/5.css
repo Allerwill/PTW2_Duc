@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+.type-5 .background-cover-number {
+  background-image: url(../images/number-bg.jpg);
+  background-position: 0% 0%;
+  display: inline-block;
+  background-attachment: fixed; }
+.type-5 .number {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 21.8em;
+  line-height: 1;
+  overflow: hidden;
+  margin-bottom: 0;
+  background: #fff;
+  color: #363636;
+  mix-blend-mode: lighten; }
+.type-5 body {
+  height: 2000px; }

@@ -1,0 +1,98 @@
+/* position for point  */
+* {
+  padding: 0;
+  margin: 0; }
+
+.type-10 .cover-map {
+  font-family: 'Oswald', sans-serif;
+  margin: auto;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  margin: auto;
+  text-align: center; }
+  .type-10 .cover-map .title-map {
+    display: inline-block;
+    display: inline-block;
+    padding: 45px 45px 90px 45px;
+    font-size: 35px;
+    word-spacing: 10px;
+    letter-spacing: 10px; }
+    .type-10 .cover-map .title-map span.second {
+      margin: 0;
+      color: #c5a47e; }
+.type-10 .google-map {
+  background-image: url(../images/map.png);
+  width: 1140px;
+  height: 567px;
+  background-size: cover;
+  margin: auto;
+  position: relative; }
+  .type-10 .google-map .location[position="one"] {
+    left: 12.6%;
+    top: 42%; }
+  .type-10 .google-map .location[position="two"] {
+    left: 32.2%;
+    top: 80.6%; }
+  .type-10 .google-map .location[position="three"] {
+    left: 47.3%;
+    top: 34.5%; }
+  .type-10 .google-map .location[position="four"] {
+    left: 50.7%;
+    top: 20.4%; }
+  .type-10 .google-map .location[position="five"] {
+    left: 64.4%;
+    top: 22.4%; }
+  .type-10 .google-map .location[position="six"] {
+    left: 82.2%;
+    top: 32.6%; }
+  .type-10 .google-map .location[position="seven"] {
+    left: 84.4%;
+    top: 82.3%; }
+  .type-10 .google-map .location[position="eight"] {
+    left: 25.7%;
+    top: 39.1%; }
+  .type-10 .google-map .location {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #c5a47e;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute; }
+    .type-10 .google-map .location .location-info {
+      width: 200px;
+      height: 200px;
+      box-sizing: border-box;
+      text-align: left;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 15px;
+      color: white;
+      position: absolute;
+      top: -215px;
+      left: -95px;
+      display: none; }
+      .type-10 .google-map .location .location-info .city-name {
+        color: #c5a47e;
+        padding-bottom: 10px;
+        border-bottom: solid 1px;
+        font-family: Arial;
+        font-weight: bold; }
+      .type-10 .google-map .location .location-info .content-city {
+        padding-top: 10px;
+        font-weight: 200;
+        font-size: 85%;
+        line-height: 2;
+        font-family: Tahoma; }
+      .type-10 .google-map .location .location-info span.arrow {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 10px 10px 0 10px;
+        border-color: rgba(0, 0, 0, 0.6) transparent transparent transparent;
+        position: absolute;
+        bottom: -10px;
+        left: 51%;
+        transform: translate(-50%, 0px); }
+  .type-10 .google-map .location.selected .location-info {
+    display: block !important;
+    z-index: 9999; }

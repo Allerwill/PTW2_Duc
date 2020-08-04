@@ -1,0 +1,143 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.type-17 {
+  .nav-menu {
+    background-image: url(../images/blog-bg.jpg);
+    width: 100%;
+    height: 520px;
+    background-size: cover;
+    position: relative;
+
+    .menu {
+      color: #fffdfd;
+      list-style-type: none;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-family: 'Oswald', sans-serif;
+      font-weight: 200;
+      width: 100%;
+      padding-top: 35px;
+      position: relative;
+      z-index: 9999;
+
+      .menu-item {
+        float: left;
+        width: 9.5%;
+        word-spacing: 5px;
+        letter-spacing: 3px;
+        cursor: pointer;
+
+        .menu-item:first-child {
+          width: 30%;
+        }
+
+        .menu-item:hover, .sub-menu .sub-item:hover, .sub-menu .sub-item[selected] {
+          color: #c5a47e !important;
+        }
+
+        .menu-item:nth-child(2) {
+          width: 15%;
+        }
+      }
+    }
+
+    .fake-nav-menu {
+      width: 100%;
+      height: 520px;
+      position: absolute;
+      top: 0%;
+      left: 0%;
+
+      .split-line {
+        display: inline-block;
+        width: 1px;
+        height: 100%;
+        background-color: white;
+        margin-left: 25%;
+      }
+
+      .split-line:first-child {
+        margin-left: 12.5%;
+      }
+
+      .nav-menu::after, .fake-nav-menu::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        //width: 100%;
+        @media screen {
+          width: 100%;
+        }
+        height: 100%;
+        top: 0;
+        background-color: #171717;
+        opacity: 0.6;
+      }
+    }
+
+  }
+
+  .description {
+    text-align: right;
+    font-family: 'montserratlight', sans-serif;
+    margin-right: -20px;
+  }
+
+  .description a {
+    text-decoration: none;
+    color: #c5a47e;
+    letter-spacing: 5px;
+  }
+
+  .title-menu {
+    font-size: 84px;
+    font-family: 'Oswald', sans-serif;
+    word-spacing: 15px;
+    letter-spacing: 13px;
+    margin-right: -30px;
+  }
+
+  .current-select {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    position: absolute;
+    z-index: 9999;
+    right: 12.5%;
+    bottom: 25%;
+    font-weight: 400;
+  }
+
+  span.arrow-icon {
+    display: inline-block;
+    transform: rotate(90deg);
+    margin-left: 5px
+  }
+
+  .menu-item .sub-menu {
+    background-color: white;
+    color: black;
+    /* display: none; */
+    padding: 10px;
+    line-height: 2;
+    width: 115%;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin-top: 0px;
+    opacity: 0;
+    transition-property: margin-top, opacity;
+    transition-duration: 0.5s, 0.5s
+  }
+
+  .menu-item:hover .sub-menu {
+    margin-top: 15px;
+    opacity: 1;
+  }
+
+  .load-item {
+    color: white;
+  }
+}
